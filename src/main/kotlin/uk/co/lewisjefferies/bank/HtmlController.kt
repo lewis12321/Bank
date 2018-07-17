@@ -13,4 +13,6 @@ class HtmlController {
         return "Hello"
     }
 
+    //Head to http://localhost:8080/rest/hello to what it returns.
+
 }
