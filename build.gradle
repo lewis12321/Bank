@@ -55,4 +55,5 @@ dependencies {
 	runtime('com.microsoft.sqlserver:mssql-jdbc')
 	runtime('mysql:mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile group: 'org.mindrot', name: 'jbcrypt', version: '0.4'
 }

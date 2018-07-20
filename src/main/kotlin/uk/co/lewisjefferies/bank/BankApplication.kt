@@ -1,5 +1,6 @@
 package uk.co.lewisjefferies.bank
 
+import org.mindrot.jbcrypt.BCrypt
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 

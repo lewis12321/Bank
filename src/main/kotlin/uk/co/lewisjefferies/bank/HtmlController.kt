@@ -1,6 +1,6 @@
 package uk.co.lewisjefferies.bank
 
-import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 @RequestMapping("rest")
 class HtmlController {
 
-    @GetMapping("/hello")
+    @PostMapping("/hello")
     fun helloString(): String {
         return "Hello"
     }
